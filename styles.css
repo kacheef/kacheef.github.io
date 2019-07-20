@@ -1,0 +1,249 @@
+/*reset style sheet*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+/* end of reset*/
+body{
+
+	 font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+ }
+
+.stick{
+	position:fixed;
+	width:98%;
+	top:0;
+	
+}
+.header_c{ 
+	font-weight:400;
+	margin: 0 10px;
+
+
+
+}	
+header {
+	background: rgba(58,44,68, 0.87);
+	margin:0 10px;
+	
+
+}
+header::after{
+	content:'';
+	display: table;
+	clear:both;
+ }
+
+.background{
+	 background-image:url("images/background.png");
+	 width: 100%;
+	 background-repeat: no-repeat;
+     background-size: cover;
+	 overflow:auto;
+	 padding-bottom: 100px;
+
+ }
+.background1{
+	 background-color: grey;
+	 width: 100%;
+	 overflow:auto;
+	 padding-bottom: 100px;
+
+ }
+
+.logo{
+	float: left;
+	margin:10px;
+}
+header nav{
+	float: left;
+}
+header nav ul{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+header nav li{
+	display: inline-block;
+	margin-left: 300px;
+	padding-top: 35px;
+	position: relative;
+
+}
+
+header nav a{
+	color: white;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+header nav a:hover{
+	color:green;
+}
+header nav a::before{
+	content:'';
+	display: block;
+	height:5px;
+	background-color: yellow;
+	position: absolute;
+	top: 0;
+	width:0%;
+	transition: all ease -in-out 250ms;
+}
+nav a:hover::before{
+	width: 100%;
+}
+.mainx{
+	margin:200px auto;
+	background: rgba(50, 77, 63, 0.3);
+	padding:0px 20px;
+	width:85%;
+	height:1550px;
+	
+}
+.main{
+	margin:200px auto;
+	background: rgba(197, 186, 241, 0.5);
+	padding:0px 20px;
+	width:85%;
+	height:700px;
+	
+}
+.main1{
+	margin:200px auto;
+	background: rgba(50, 77, 63, 0.2);
+	padding:0px 20px;
+	width:85%;
+	height:600px;
+	
+}
+main p{
+	clear:both;
+}
+.m_content{
+	text-align:center;
+}
+.m_content h1{
+	font-size:50px;
+	letter-spacing: 1px;
+	border-bottom: 1px solid red;
+}
+.m_content h2{
+	margin-top:10px;
+	font-size: 25px;
+	
+	
+}
+.f_container{
+	margin: 0 auto;
+	background: rgba(50, 77, 63, 0.6);
+    text-align: center;
+    font-family: Roboto;
+	position:relative;
+	height:80px;
+
+}
+footer{
+	width:100%;
+	padding: 0px 0px;
+}
+footer nav{
+	float: left;
+}
+footer nav ul{
+	margin: 0 auto;
+	padding: 0;
+	list-style: none;
+}
+footer nav li{
+	display: inline-block;
+	position: relative;
+	margin-left: 250px;
+	padding: 35px 10px;
+}
+
+footer nav a{
+	color: white;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+footer nav a:hover{
+	color:pink;
+}
+#main1{
+
+
+	float: left;
+	width: 40%;
+	height:100%;
+	margin:10px auto;
+	
+}
+main h2{
+		border-bottom: 1px solid blue;
+		text-align:center;
+		width:60%;
+		margin:0 auto;
+}
+#main2{
+	float: right;
+	width: 40%;
+	height:100%;
+	margin:10px auto;
+
+}
+#main3{
+	float: left;
+	width: 40%;
+	height:100%;
+	clear:both;
+	margin:10px auto;
+}
+fig{
+	   margin:10px auto;
+    display:inline-block;
+    text-decoration:none;
+	
+}
+figcaption{
+	margin: 20px auto;;
+	text-align:center;
+	clear: both;
+}
+.video{
+	margin-top:20px;
+	float: right;
+	text-align:center;
+	font-size:20px;
+	position: relative;
+	}
+form{
+	float: left;
+	margin: 50px;
+	font-size:25px;
+}
+.f_name{
+	margin:0;
+	padding: 15px 0;
+	position: relative;
+}
+.right{
+	float: right;
+	margin: 10px;
+}
